@@ -1,0 +1,357 @@
+.firstColumn {
+  /*color: #409EFF;*/
+}
+.detail_info{
+    display: flex;
+    flex-wrap: wrap;
+}
+.info {
+  margin-bottom: 10px;
+  width: 45%;
+}
+.info .value {
+  width: 150px;
+  word-break: break-all;
+  vertical-align: top;
+  display: inline-block;
+  float: left;
+} 
+.info .text {
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.info .label {
+  display: inline-block; 
+  width: 80px;
+  float: left; 
+  font-weight: 600;
+}
+.vertical{
+  width: 1px;
+  height: 15px;
+  border: 1px solid #ccc;
+  border-width: 0 0 0 1px;
+  margin: 0 10px;
+}
+.interval{
+  margin-right: 40px;
+}
+
+.el-table th{
+  font-size: 14px;
+  color: #434343;
+  font-family: PingFangSC-Medium;
+}
+
+.form__input{
+  width: 320px !important;
+}
+
+.form__input_small{
+  width: 80px !important;
+}
+.form__input_long{
+  width: 260px !important;
+}
+.el-tooltip__popper{
+  max-width: 200px;
+}
+.el-table th>.cell{
+  padding-left: 14px !important;
+}
+.el-input-group__append{
+  color: #000;
+}
+.el-autocomplete-suggestion{
+  min-width: 160px;
+  width: auto !important;
+}
+/* 查询条件 */
+.search-class{
+  width: 340px;
+  height: 50px;
+  float: left;
+}
+.style-sear,
+.style-sear1{
+  float: left;
+  width: 80px;
+  height: 40px;
+  line-height: 29px; 
+  color: #434343;
+  text-align: right;
+  font-size: 14px;
+} 
+.style-sear1{
+  margin-left:-10px; 
+}
+.style-sear{
+  margin-left:25px
+} 
+.style-left{
+  margin-left:-10px
+} 
+.style-left1{
+  margin-left:55px
+} 
+.hideAndShow {
+  float: right; 
+  line-height: 2.3;
+  cursor: pointer;
+  color: #5584bf;
+  margin-right: -50px;
+  font-size: 14px;
+}
+.searchInput {
+  float: left; 
+}
+.ser-but {
+  float: left; 
+  text-align: right;
+  width: 250px;
+  margin-left:15px
+}
+.resetBtn{
+  background-color: #ffffff;
+  border-radius: 4px;
+  border: solid 1px #e4e4e4;
+  color: #409EFF;
+  width: 70px;
+  height: 32px;
+  cursor: pointer; 
+  text-align: center;
+  font-size: 14px;
+}
+.searchBtn{
+  background-color: #409EFF;
+  border-radius: 4px;
+  width: 70px;
+  border: 0px;
+  height: 32px;
+  color: #ffffff;
+  cursor: pointer; 
+  text-align: center;
+  font-size: 14px;
+}
+
+.searchBtn:focus{
+  outline: none !important;
+}
+
+.searchBtn:hover{ 
+  background: #66b1ff;
+  border-color: #66b1ff;
+  border-radius: 4px;
+  width: 70px;
+  border: 0px;
+  color: #FFF;
+}
+
+.searchBtn:active{
+  background: #66b1ff;
+  border-color: #66b1ff;
+  color: #FFF;
+}
+
+.resetBtn:hover{
+  background: #fff !important;
+  color: #66b1ff !important;
+  border: solid 1px #66b1ff
+}
+
+.resetBtn:active {
+  background: #fff !important;
+  color: #66b1ff !important;
+  border: solid 1px #66b1ff
+}
+
+.resetBtn:focus{
+  outline: none !important;
+} 
+
+/*会影响下拉框样式
+ .el-scrollbar__wrap {
+  overflow-x: hidden;
+} */
+.flexBox{
+  display:flex;
+}
+.cursorP{
+  cursor: pointer;
+}
+.cursorNA{
+  cursor: not-allowed;
+}
+.flexWrap{
+  flex-wrap: wrap;
+}
+.flexCenter{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.flexBet{
+  display:flex;
+  justify-content: space-between;
+}
+.flexColumn{
+  display:flex;
+  flex-direction:column
+}
+.el-input__inner{
+  height: 32px;
+  line-height: 32px;
+}
+.el-input__icon{
+  line-height: 32px;
+}
+.el-input-number{
+  line-height: 30px;
+}
+.colorGreen{
+  color:rgb(41, 197, 90)
+}
+.colorRed{
+  color:rgb(247, 63, 63)
+}
+.colorGray{
+  color: #d2d6de;
+}
+.colorBlue{
+  color: #3c8dbc;
+}
+.mx-input{
+  border: 1px solid #DCDFE6 !important;
+  -webkit-box-shadow:none  !important;
+  box-shadow:none !important;
+}
+.mx-input:hover, .mx-input:focus{
+  border-color: #409aff !important;
+}
+.mx-datepicker input::-webkit-input-placeholder{
+    color:#C0C4CC
+}
+.textEllipsis{
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap
+} 
+.mx-datepicker-popup{
+  z-index: 20000 !important;
+}
+.textareaCheckRows.is-disabled .el-textarea__inner{
+  background:transparent;
+  border:none;
+  cursor:unset;
+  resize:none;
+  color:#606266;
+  padding:0
+}
+.preType{
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Microsoft YaHei";
+    text-overflow: ellipsis;
+    white-space: pre;
+    overflow: hidden;
+}
+.allFontFamily{
+  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Microsoft YaHei"
+}
+@media screen and (max-width: 1366px) {
+  .info .value{  
+    font-size: 12px;;
+  }
+  .info .label {
+    font-size: 12px;;
+  }
+  .search-class{
+    width: 230px;
+    height: 35px;
+  }
+  .form__input{
+    width: 170px !important;
+  }
+  .ser-but{
+    width: 170px;
+  }
+  .style-sear, .style-sear1{
+    font-size: 12px;
+    width: 70px;
+  } 
+  .style-left{
+    margin-left: 0px;
+  }
+  .style-sear1{
+    width:70px;
+    height: 25px;
+    line-height: 25px;
+  }
+  .el-input--small .el-input__inner{
+    height: 25px;
+    line-height: 25px;
+  }
+  .style-sear{
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px; 
+  }
+  .el-button--small, .el-button--small.is-round{
+    padding: 6px 6px;
+  }
+  .vertical{
+    margin: 0 4px;
+  }
+  .hideAndShow{
+    font-size: 12px;
+  }
+  .el-dialog__title{
+    font-size: 16px;
+  }
+  .el-dialog__body{
+    padding: 10px 20px;
+  }
+  .el-message-box__title{
+    font-size: 16px;  
+  }
+  .el-tree-node__label{
+    font-size: 12px;
+  }
+  .el-input-number--small{
+    line-height: 23px;
+  }
+  .el-input__inner{
+    height: 25px;
+    line-height: 25px;
+  }
+  .el-input__icon{
+    line-height: 25px;
+  }
+  .el-input-number{
+    line-height: 23px;
+  }
+  .el-form-item__label{
+    font-size: 12px;
+  }
+  .el-form-item{
+    margin-bottom:15px
+  }
+  .mx-input{
+    height: 25px !important;
+  }
+  .el-table td, .el-table th{
+    padding: 5px 0;
+  }
+  .smallFont12{
+    font-size:12px
+  }
+  .searchInput .mx-datepicker{
+    height:25px
+  }
+  .searchInput .mx-datepicker .mx-input-wrapper,
+  .searchInput .mx-datepicker .mx-input-wrapper input{
+    height:100%
+  } 
+  .el-input--small{
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,16 @@
+
+@font-face { 
+  font-family: DINAlternate-Bold; 
+  src: url('../font/DINPro-Bold.ttf') format('truetype'); 
+  
+}
+
+@font-face { 
+  font-family: PingFangSC-Medium; 
+  src: url('../font/PingFang-Medium.ttf') format('truetype');
+} 
+
+@font-face { 
+  font-family: PingFangSC-Regular; 
+  src: url('../font/PingFang-Regular.ttf') format('truetype');
+} 
